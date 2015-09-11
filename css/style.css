@@ -38,9 +38,16 @@
   color: white;
 }
 
-@media screen and (min-width: 1200px) and (max-width: 2000px) {
+
+@media screen and (min-width: 1440px) and (max-width: 2000px) {
   .countdown-clock {
     left: 25%
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1440px) {
+  .countdown-clock {
+    left: 15%
   }
 }
 
